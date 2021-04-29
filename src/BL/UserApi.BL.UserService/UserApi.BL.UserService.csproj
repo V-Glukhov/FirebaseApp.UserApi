@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DAL\UserApi.DAL.Models\UserApi.DAL.Models.csproj" />
+    <ProjectReference Include="..\..\DAL\UserApi.DAL.Repository.Abstraction\UserApi.DAL.Repository.Abstraction.csproj" />
+    <ProjectReference Include="..\UserApi.BL.UserServiceContracts\UserApi.BL.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
