@@ -1,0 +1,2 @@
+Для сборки проекта скомпилировать проект UserApi и собрать его docker-файл. Использовать visual-studio
+или в папке UserApi запустить команду docker build  -f src/api/Dockerfile  .
